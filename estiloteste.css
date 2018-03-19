@@ -1,0 +1,38 @@
+W*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#topo {
+    background: #ebebeb;
+}
+#topo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#topo li{
+    float: right;
+}
+#topo a{
+    display: block;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+}
+#topo a:hover{
+    color: blue;
+}
+#header {
+    padding: 50px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background: #ebebeb;
+}
+#active{
+    background: #ebebeb;
+}
+.conteudo1 {
+    
+}
