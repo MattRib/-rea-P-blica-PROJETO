@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+
+
+
+main {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+header {
+    margin: 0px;
+    padding: 100px 0;
+    background-color:#d52b1e;
+    text-align: left;
+    width: 100%;  
+    
+}
+
+
+nav
+{   
+    position: relative;
+    background-color:#fff;
+    width: 100%;
+    height: 50px;
+    padding:0px;
+    border-bottom:1px solid;
+}
+ul
+{
+    margin:0;
+    padding: 0;
+}
+li
+{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin:0.1em 1em;
+    background-color:;
+
+
+}
+nav ul li a
+{ 
+    position: relative;
+    display: block;
+    padding:15px 20px;
+    color: black;
+    font-weight: bold;
+    background-color:;
+}
+
+nav ul li a:hover
+{
+
+    position: relative;
+    display: block;
+    padding:15px 20px;
+    font-weight: bold;
+    color: black;
+    background-color:darkgray;
+}
+
+/*Sumenu*/
+
+nav ul li ul
+{  
+    margin: 0px;
+    width: 100%;  
+    display:none;
+    position: absolute;  
+    background-color: #fff;
+    border: 1px solid;
+}
+nav li:hover ul
+{   
+
+    display:block;
+}
+
+nav ul li ul li a:hover
+{
+
+    background-color: darkgray;
+    width:5.2em;
+    font-weight: bold;
+    color: black;
+    
+
+}
+
+nav ul li ul li
+{
+    padding: 0;
+    margin: 0 0px;
+    font-size: 1.2em;   
+}
+
+li a
+{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header h1
+{
+    text-align: center;
+    color: aquamarine;
+    padding: 0px;
+    margin: 0px;
+}
+/*
+.janela1 {
+    background-color:azure;
+    height: 300px;
+    float: left;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px
+
+}
+
+.janela2 {
+    background-color: azure;
+    height: 300px;
+    width: 250px;
+    float: left;
+    padding:20px;
+    border-radius: 10px;
+         
+}*/
+
+.janela3
+{
+    background-color:red;
+    height: 370px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.multimarket
+{
+    position: sticky;
+    bottom: 2.5em;
+    right: em;
+}
+
+.marketbottom
+{
+    position: relative;
+    bottom: 2.1em;
+}
+
+
+
+.janela4
+{
+    background:url('https://i2.wp.com/www.brasilfranquias.com/wp-content/uploads/2016/06/Franquia-de-Frios-e-Laticinios.jpg?fit=1155%2C468&ssl=1')no-repeat 0 0;
+    background-size: contain;
+    background-position: bottom;
+    height: 300px;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 0px;
+}
+
+/*.janela5
+{
+    background-color:azure ;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 0px 15px;
+    
+}
+
+.janela6
+{
+    background-color: azure;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    
+}*/
+
+.janela7
+{
+    background:url('http://coopsp.vteximg.com.br/arquivos/ids/159267/acougue.jpg?v=636144865498600000')no-repeat 0 0;
+    background-position: center;
+    height: 240px;
+    width: 1165px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-bottom:20px;
+}
+
+
+
+.hortifruti
+{
+    background: url('http://frutariafrutadope.com.br/wp-content/uploads/2015/05/Hortifruti.png')no-repeat 0 0;
+    float:left;
+    height: 300px;
+    width: 1165px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.promocao 
+{
+    float: left;
+}
+
+.promocao h3
+{
+    
+    font-size: 2em;
+    padding: 0px;
+    margin: 30px 0 0px;
+}
+
+.limpeza
+{
+    background: url('http://coopsp.vteximg.com.br/arquivos/ids/159266/limpeza.jpg?v=636144729168300000')no-repeat 0 0;
+    background-position: center;
+    background-size: contain;
+    height: 280px;
+    width: 1165px;
+    float: left;
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+
+
+footer {
+    margin: 0px 0px;
+    padding: 100px 0px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    clear: both;  
+    position:relative;
+}
+
